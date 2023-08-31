@@ -2,23 +2,29 @@
 # Retail Forecasting Models
 This Jupyter notebook contains the development and evaluation of 16 gradient boosting machine learning models aimed at forecasting various metrics for a retail company. 
 
-Introduction
-[Data Preprocessing]
-[Model Descriptions]
-[Evaluation Metrics]
-[Conclusion]
+## Table of Contents
 
-# Introduction
+1. [Introduction](#introduction)
+2. [Data Preprocessing](#data-preprocessing)
+3. [Model Descriptions](#model-descriptions)
+4. [Evaluation Metrics](#evaluation-metrics)
+5. [Conclusion](#conclusion)
+
+<a id='introduction'></a>
+## Introduction
+
 The retail sector is dynamic, and accurate forecasting is crucial for inventory management, sales strategies, and overall business planning. This notebook aims to provide a comprehensive set of models to predict different aspects of retail performance.
 
-# Data Preprocessing
+<a id='data-preprocessing'></a>
+## Data Preprocessing
 Before diving into the models, the data undergoes several preprocessing steps:
 
 Handling missing values
 Feature engineering, including creating lag features, rolling means, and other time-series specific transformations
 Scaling and normalization using techniques like RobustScaler
 
-# Model Descriptions
+<a id='model-descriptions'></a>
+## Model Descriptions
 The notebook explores 16 different models, each tailored for specific forecasting tasks. Here's a brief overview:
 
 Model 1: Daily demand prediction for City 14
@@ -60,7 +66,8 @@ Feature Selection: Feature selection is handled by the gradient boosting algorit
 
 Hyperparameter Tuning: Grid Search CV technique is applied to find the optimal set of hyperparameters for each model.
 
-# Evaluation Metrics
+<a id='evaluation-metrics'></a>
+## Evaluation Metrics
 Each model is evaluated using a set of metrics to ensure its forecasting accuracy. The primary metrics used are:
 
  - Root Mean Square Error (RMSE)
@@ -68,6 +75,7 @@ Each model is evaluated using a set of metrics to ensure its forecasting accurac
 
 These metrics provide insights into the model's accuracy and how well it explains the variance in the data.
 
-# Conclusion
+<a id='conclusion'></a>
+## Conclusion
 This notebook offers a comprehensive set of tools for retail forecasting. By leveraging a combination of traditional and advanced machine learning techniques, it aims to provide accurate and actionable predictions for the retail sector.
 These models are used for the development of Pro-Vision App that is placed in a separate repository.
