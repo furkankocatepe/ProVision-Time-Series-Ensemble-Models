@@ -1,4 +1,4 @@
-# ProVision-Time-Series-Ensemble-Models
+# ProVision Time Series Ensemble Models
 # Retail Forecasting Models
 This Jupyter notebook contains the development and evaluation of 16 gradient boosting machine learning models aimed at forecasting various metrics for a retail company. 
 
@@ -29,25 +29,18 @@ The notebook explores 16 different models, each tailored for specific forecastin
 
 Model 1: Daily demand prediction for City 14
 Model 2: Daily revenue prediction for City 14
-
 Model 3: Daily demand prediction for City 22
 Model 4: Daily revenue prediction for City 22
-
 Model 5: Daily demand prediction for City 31
 Model 6: Daily revenue prediction for City 31
-
 Model 7: Daily demand prediction for City 24
 Model 8: Daily revenue prediction for City 24
-
 Model 9: Weekly demand prediction for City 14
 Model 10: Weekly revenue prediction for City 14
-
 Model 11: Weekly demand prediction for City 22
 Model 12: Weekly revenue prediction for City 22
-
 Model 13: Weekly demand prediction for City 31
 Model 14: Weekly revenue prediction for City 31
-
 Model 15: Weekly demand prediction for City 24
 Model 16: Weekly revenue prediction for City 24
 
